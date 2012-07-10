@@ -1,0 +1,5 @@
+rem Krysalix.KLADR.Converter.exe c:\temp\share\base\STREET.DBF level5.xml 5 "<NODE NAME=\"{0}\" SOCR=\"{1}\" CODE=\"{2}\" INDEX=\"{3}\" GNINMB=\"{4}\" UNO=\"{5}\" OCATD=\"{6}\" SS=\"{7}\" RRR=\"{8}\" GGG=\"{9}\" PPP=\"{10}\" UUUU=\"{11}\" AA=\"{12}\" />" "<RESULT>" "</RESULT>" >> out.txt
+rem Krysalix.KLADR.Converter.exe c:\temp\share\base\STREET.DBF level5.sql 5 "INSERT INTO tablename (NAME, SOCR, CODE, INDEX, GNINMB, UNO, OCATD, SS, RRR, GGG, PPP, UUUU, AA) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', '{11}', '{12}');" "" "" >> out.txt
+
+Krysalix.KLADR.Converter.exe c:\temp\share\base\STREET.DBF level5.xml 5 "<NODE NAME=\"{0}\" SOCR=\"{1}\" CODE=\"{2}\" INDEX=\"{3}\" GNINMB=\"{4}\" UNO=\"{5}\" OCATD=\"{6}\" SS=\"{7}\" RRR=\"{8}\" GGG=\"{9}\" PPP=\"{10}\" UUUU=\"{11}\" AA=\"{12}\" />" 36 011 000 028 >> out.txt
+Krysalix.KLADR.Converter.exe c:\temp\share\base\STREET.DBF level5.sql 5 "INSERT INTO tablename (NAME, SOCR, CODE, INDEX, GNINMB, UNO, OCATD, SS, RRR, GGG, PPP, UUUU, AA) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', '{11}', '{12}');" 36 011 000 028 >> out.txt

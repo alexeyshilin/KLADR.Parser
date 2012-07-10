@@ -1,0 +1,5 @@
+rem Krysalix.KLADR.Converter.exe c:\temp\share\base\KLADR.DBF level14.xml 1 "<NODE NAME=\"{0}\" SOCR=\"{1}\" CODE=\"{2}\" INDEX=\"{3}\" GNINMB=\"{4}\" UNO=\"{5}\" OCATD=\"{6}\" STATUS=\"{7}\" SS=\"{8}\" RRR=\"{9}\" GGG=\"{10}\" PPP=\"{11}\" AA=\"{12}\" />" "<RESULT>" "</RESULT>" >> out.txt
+rem Krysalix.KLADR.Converter.exe c:\temp\share\base\KLADR.DBF level14.sql 1 "INSERT INTO tablename (NAME, SOCR, CODE, INDEX, GNINMB, UNO, OCATD, STATUS, SS, RRR, GGG, PPP, AA) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', '{11}', '{12}');" "" "" >> out.txt
+
+Krysalix.KLADR.Converter.exe c:\temp\share\base\KLADR.DBF level14.xml 1 "<NODE NAME=\"{0}\" SOCR=\"{1}\" CODE=\"{2}\" INDEX=\"{3}\" GNINMB=\"{4}\" UNO=\"{5}\" OCATD=\"{6}\" STATUS=\"{7}\" SS=\"{8}\" RRR=\"{9}\" GGG=\"{10}\" PPP=\"{11}\" AA=\"{12}\" />" 36 011 000 028 >> out.txt
+Krysalix.KLADR.Converter.exe c:\temp\share\base\KLADR.DBF level14.sql 1 "INSERT INTO tablename (NAME, SOCR, CODE, INDEX, GNINMB, UNO, OCATD, STATUS, SS, RRR, GGG, PPP, AA) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', '{11}', '{12}');"  36 011 000 028 >> out.txt
